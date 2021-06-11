@@ -1,0 +1,26 @@
+<!-- Assignment-8 -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Selct Tag</title>
+</head>
+<body>
+	<label>Choose your color</label>
+	<select id='clr'>
+		<option>Blue</option>
+		<option>Red</option>
+		<option>Green</option>
+		<option>Yellow</option>
+		<option>orange</option>
+	</select>
+	<button onclick="readData()">submit</button>
+	<p id="result"></p>
+	<script>
+		function readData() {
+			var c=document.getElementById('clr').value;
+			document.getElementById('result').innerHTML="your favotite color is "+c+"!";
+		}
+	</script>
+
+</body>
+</html>
