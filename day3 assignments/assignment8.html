@@ -1,0 +1,32 @@
+<!doctype html>
+	<html>
+	<head>
+		<title>DATALIST FORM</title>
+	</head>
+	<body>
+		<label>
+			ENTER UR FAV HERO AND CLICK ANY CHARACTER<br/>
+			<input type="text" id="favhero" value="hero"/>
+			<datalist >
+			<option value="alluarjun" id="hero" value="he is king"/>
+			<option value="prabhas" id="top" value="he is tall">
+			<option value="venky" id="hi" value="he is comedy"/>
+			<option value="ntr" id="fav" value="he is short"/>
+		</option>
+	</datalist>
+		<button onclick="readdata()">submit</button>
+	</label>
+		<br/>
+			<script>
+				function readdata(){
+					document.getElementById('hero').value;
+					document.getElementById('top').value;
+					document.getElementById('hi').value;
+					document.getElementById('fav').value;
+
+				}
+				
+				
+			</script>
+		</body>
+		</html>
